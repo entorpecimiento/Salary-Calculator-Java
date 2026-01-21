@@ -1,18 +1,47 @@
-# Retail Payroll System
+# 🚀 Salary Calculator – Java Logic
 
-Módulo de liquidación salarial desarrollado en Java que automatiza el cálculo de haberes para personal de retail mediante el procesamiento de bonificaciones y deducciones legales.
+Payroll module developed in Java that automates salary calculations for retail staff by processing bonuses and legal deductions.
 
-## Funcionamiento
-El sistema permite gestionar la nómina basándose en tres categorías laborales específicas:
-1. **Repositor:** Cálculo de sueldo base ($15.890) con aplicación de bono porcentual del 10%.
-2. **Cajero:** Procesamiento de haberes fijos mensuales ($25.630,89).
-3. **Supervisor:** Liquidación de sueldo bruto ($35.560,20) con deducción automática del 11% por aportes jubilatorios.
+---
 
-## Características Técnicas
-* **Control de flujo:** Implementación de estructuras `if-else` anidadas para la selección de categorías y validación de entrada.
-* **Precisión monetaria:** Uso de tipos de datos de punto flotante para el manejo de divisas y porcentajes.
-* **Interfaz de consola:** Captura de datos dinámica mediante la clase `Scanner`.
+## 🧠 Project Description
 
-## Requisitos
-* JDK 8 o superior.
-* IDE compatible (NetBeans recomendado) o terminal de comandos.
+The system manages payroll logic based on three specific employment categories:
+
+### 📌 Repositor (Stock Clerk)
+- **Base Salary:** $15,890.
+- **Bonus:** 10% additional payment applied to the base.
+
+### 📌 Cajero (Cashier)
+- **Fixed Salary:** Monthly processing of $25,630.89.
+
+### 📌 Supervisor
+- **Gross Salary:** $35,560.20.
+- **Deduction:** 11% automatic pension contribution.
+
+---
+
+## 🛠️ Technical Highlights
+- **Flow Control:** Implementation of nested `if-else` structures for category selection and input validation.
+- **Monetary Precision:** Use of floating-point data types for accurate currency and percentage handling.
+- **Console Interface:** Dynamic data entry processing using the `Scanner` class.
+
+---
+
+## 📂 Project Structure
+- src/
+  - main/
+    - java/
+      - com/mycompany/java/payroll/logic/
+        - JavaPayrollLogic.java
+
+---
+
+## 📋 Requirements
+- **JDK 8** or higher.
+- **Compatible IDE** (NetBeans recommended) or terminal.
+
+---
+
+## 🚀 Author
+[GitHub – entorpecimiento](https://github.com/entorpecimiento)
